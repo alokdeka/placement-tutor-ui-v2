@@ -1,0 +1,30 @@
+@media (max-width: 575.98px) {
+  .header {
+    display: none;
+  }
+
+  .banner_text,
+  .banner_feature,
+  #searchForm {
+    width: 90vw;
+  }
+
+  .banner_text p {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+@media (min-width: 1400px) {
+}
