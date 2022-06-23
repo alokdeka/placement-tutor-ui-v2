@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 
 :root {
-  --primary-color: #111;
-  --secondary-color: rgb(147, 0, 0);
+  --primary-color: rgb(17, 17, 17);
+  --secondary-color: #3427ab;
   --main-font-style: "Lato", sans-serif;
   /* --main-font-style: "Roboto", sans-serif; */
 }
@@ -25,10 +25,31 @@ p {
   margin-bottom: 0;
 }
 
-.common_heading {
+.common_heading_1 {
   font-size: 3rem;
+  font-weight: 800;
+}
+
+.common_heading_2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 4rem;
 }
 
 .heading_support_text {
   font-size: 1.4rem;
+}
+
+.view_all_btn {
+  border: 1px solid var(--secondary-color);
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 1rem 3rem;
+  color: var(--secondary-color);
+  background-color: #fff;
+}
+
+.view_all_btn:hover {
+  color: #fff;
+  background-color: var(--secondary-color);
 }

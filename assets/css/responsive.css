@@ -12,6 +12,24 @@
   .banner_text p {
     font-size: 3rem;
   }
+
+  .top_categories .col {
+    width: 50%;
+    display: inherit;
+    margin-bottom: 2rem;
+  }
+
+  .partner_inner {
+    flex-direction: column;
+  }
+
+  .partner_inner_left {
+    margin-bottom: 2rem;
+  }
+
+  .institute_single {
+    margin-bottom: 4rem;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

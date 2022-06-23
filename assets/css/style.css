@@ -40,6 +40,7 @@ html {
 
 .navbar .navbar-nav .nav-link {
   font-size: 1rem;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -129,4 +130,106 @@ html {
   align-items: center;
   flex-direction: column;
   font-size: 1.4rem;
+}
+
+/* ======================================= Top categories ======================================= */
+.top_categories {
+  padding: 8rem 0;
+}
+
+.top_categories_item {
+  background: #fff;
+  padding: 4rem;
+  border-radius: 5px;
+}
+
+.top_categories_item p:first-child {
+  font-size: 1.4rem;
+}
+
+/* ===================================== Highr education partner ============================ */
+.partner {
+  padding: 5rem 0;
+  margin: 5rem 0;
+}
+
+.partner_inner {
+  display: flex;
+}
+
+.partner_inner_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5rem;
+}
+
+.institute_single {
+  text-align: center;
+  background-color: #fff;
+  padding: 1.3rem 1.3rem;
+  transition: 0.3s all ease;
+}
+
+.institute_single:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.institute_single img {
+  height: 100px;
+}
+
+.fa-star {
+  color: #f7b603;
+}
+
+.partner_inner_right a {
+  text-decoration: none;
+}
+
+/* ======================================= Latest tech news ================================= */
+.blog {
+  margin: 8rem 0;
+}
+
+.blog_item {
+  position: relative;
+  box-shadow: 0.5rem 0.5rem 6rem -1.7rem rgb(1, 1, 1, 0.2);
+}
+
+.blog_item .card-img-top {
+  height: 22rem;
+  object-fit: cover;
+}
+
+.blog_item .card-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.blog_item .btn {
+  font-size: 1.2rem;
+  padding: 0.6rem 2rem;
+  font-weight: 600;
+  background-color: var(--secondary-color);
+  border: none;
+  color: #fff;
+}
+
+.blog_item .btn:hover {
+  transform: translateY(2px);
+}
+
+.blog_categoty {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+}
+
+.blog_categoty .badge {
+  font-size: 1rem;
+  padding: 0.8rem 1.2rem;
+  background-color: var(--secondary-color);
 }
