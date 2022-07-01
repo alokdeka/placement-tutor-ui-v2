@@ -27,14 +27,13 @@
   }
 
   .top_categories .col {
-    width: 100%;
-    display: inherit;
+    width: 50%;
     margin-bottom: 2rem;
   }
 
-  .top_categories_item {
-    width: 100%;
-    padding: 3rem 2rem;
+  .top_categories_item:nth-last-child() {
+    width: 50%;
+    margin: auto;
   }
 
   .partner_inner {
@@ -43,6 +42,7 @@
 
   .partner_inner_left {
     margin-bottom: 2rem;
+    padding-left: 2rem;
   }
 
   .institute_single {
