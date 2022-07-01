@@ -129,7 +129,7 @@ html {
 
 /* ========================================= Why Us ============================================= */
 .why_us {
-  margin: 5rem 0;
+  margin: 10rem 0;
 }
 
 .why_us_grid .row {
@@ -138,7 +138,7 @@ html {
 }
 
 .why_us_grid_item {
-  min-height: 16rem;
+  min-height: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
