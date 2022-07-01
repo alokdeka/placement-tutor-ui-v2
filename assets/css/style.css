@@ -4,7 +4,7 @@ html {
 
 /* ================================ Common Header ========================================= */
 .header {
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
   border: 1px solid rgb(1, 1, 1, 0.1);
@@ -155,16 +155,26 @@ html {
   background: #fff;
   padding: 4rem;
   border-radius: 5px;
+  text-align: center;
+}
+
+.top_categories_item img {
+  width: 9rem;
 }
 
 .top_categories_item p:first-child {
   font-size: 1.4rem;
 }
 
-/* ===================================== Highr education partner ============================ */
+.top_categories_item p {
+  font-size: 1.2rem;
+}
+
+/* ===================================== Education partner ============================ */
 .partner {
   padding: 5rem 0;
   margin: 5rem 0;
+  font-size: 1.2rem;
 }
 
 .partner_inner {
@@ -182,17 +192,18 @@ html {
 .institute_single {
   text-align: center;
   background-color: #fff;
-  padding: 1.3rem 1.3rem;
+  padding: 1.3rem 1.5rem 2rem;
   transition: 0.3s all ease;
 }
 
 .institute_single:hover {
-  background-color: var(--primary-color);
-  color: #fff;
+  transform: translateY(5px);
+  color: #111;
 }
 
 .institute_single img {
   height: 100px;
+  margin-top: -1rem;
 }
 
 .fa-star {
