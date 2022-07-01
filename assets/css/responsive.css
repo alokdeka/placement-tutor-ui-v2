@@ -3,6 +3,15 @@
     display: none;
   }
 
+  .banner {
+    min-height: 70vh;
+  }
+
+  .banner_img_1,
+  .banner_img_2 {
+    display: none;
+  }
+
   .banner_text,
   .banner_feature,
   #searchForm {
@@ -36,6 +45,20 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .banner {
+    min-height: 60vh;
+  }
+
+  .banner_img_1,
+  .banner_img_2 {
+    display: none;
+  }
+
+  .banner_text,
+  .banner_feature,
+  #searchForm {
+    width: 80vw;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
