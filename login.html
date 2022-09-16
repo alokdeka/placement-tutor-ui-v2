@@ -19,97 +19,38 @@
     <link rel="stylesheet" href="./assets/css/main.css">
 
     <title>Placement Tutor</title>
-
-    <style>
-        .inner_section_login {
-            height: 100vh;
-        }
-
-        .heading {
-            color: var(--secondary-color);
-            font-weight: 900;
-            font-size: 3rem;
-        }
-
-        #loginForm {
-            padding: 3rem 6rem;
-        }
-
-        .secondary_heading {
-            font-size: 1.3rem;
-            font-weight: 600;
-        }
-
-        .secondary_heading a {
-            text-decoration: none;
-            color: var(--secondary-color);
-        }
-
-        #loginForm .form-control,
-        #loginForm .form-select {
-            height: 4rem;
-            font-size: 1.3rem;
-        }
-
-        #loginForm label {
-            margin-bottom: 0.5rem;
-            font-size: 1.2rem;
-            font-weight: 500;
-        }
-
-        .dropdown-menu {
-            width: 100%;
-            border: none;
-            box-shadow: 2px 5px 5px #dcdcdc;
-            border-radius: 0;
-        }
-
-        #btn_send_otp {
-            background-color: var(--secondary-color);
-            color: #fff;
-            padding: 0.8rem 2rem;
-            font-size: 1.3rem;
-        }
-
-        #varify_and_login_btn {
-            background-color: var(--secondary-color);
-            color: #fff;
-            padding: 0.8rem 2rem;
-            font-size: 1.3rem;
-        }
-    </style>
 </head>
 
 <body>
     <!-- Main -->
-    <section class="login">
+    <section class="auth">
         <div class="row g-0">
-            <div class="col-md-6 inner_section_login">
+            <div class="col-md-6 auth_inner_section">
                 <div class="container p-5">
-                    <div class="login_form_section">
+                    <div class="auth_form_section">
                         <img src="./assets/img/logo/logo.png" alt="Logo" width="180">
 
-                        <form action="#" id="loginForm">
+                        <form action="#" class="auth_form" id="loginForm">
                             <h1 class="heading">Sign In</h1>
-                            <p class="text-muted secondary_heading mb-4">Don't have an account? <a href="#">Sign up</a>
+                            <p class="text-muted secondary_heading mb-4">Don't have an account? <a
+                                    href="register.html">Sign up</a>
                             </p>
                             <div class="mb-3">
                                 <label for="role">Select Role</label>
                                 <select class="form-select shadow-none" id="role" name="role">
-                                    <option selected disabled>Options</option>
+                                    <option selected disabled value="">Options</option>
                                     <option value="1">Student</option>
                                     <option value="2">Hiring Partner</option>
                                     <option value="3">University Partner</option>
                                     <option value="4">Training Partner</option>
                                 </select>
+                                <div class="invalid-feedback" id="roleInvalidFeedback"></div>
                             </div>
                             <div class="mb-3">
                                 <label for="phone">Mobile Number</label>
                                 <input type="text" id="phone" name="phone" class="form-control shadow-none"
                                     placeholder="Mobile number">
-                                <div class="invalid-feedback" id="phoneInvalidFeedback">
-
-                                </div>
+                                <div class="invalid-feedback" id="phoneInvalidFeedback"></div>
                                 </p>
                             </div>
 
@@ -120,12 +61,13 @@
                             </div>
 
                             <button class="btn" id="btn_send_otp">Send OTP</button>
-                            <button type="submit" class="btn d-none" id="varify_and_login_btn">Login</button>
+                            <a href="#" class="btn shadow-none d-none" id="resent_otp_btn">Resend</a>
+                            <button type="submit" class="btn d-none submit_btn" id="verify_and_login_btn">Login</button>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 inner_section_login bg-light">
+            <div class="col-md-6 auth_inner_section bg-light">
             </div>
         </div>
     </section>

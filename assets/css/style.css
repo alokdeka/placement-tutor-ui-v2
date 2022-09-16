@@ -338,3 +338,73 @@ html {
   border-radius: 0;
   box-shadow: none;
 }
+
+/* =================================== Login / Register =============================== */
+.auth_inner_section {
+  min-height: 100vh;
+}
+
+.heading {
+  color: var(--secondary-color);
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.auth_form {
+  padding: 3rem 6rem;
+}
+
+.secondary_heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.secondary_heading a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.auth_form .form-control,
+.auth_form .form-select {
+  height: 4rem;
+  font-size: 1.3rem;
+}
+
+.auth_form label {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  width: 100%;
+  border: none;
+  box-shadow: 2px 5px 5px #dcdcdc;
+  border-radius: 0;
+}
+
+#btn_send_otp {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 1.3rem;
+}
+
+.submit_btn {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 1.3rem;
+}
+
+.submit_btn:hover {
+  background-color: #fff;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+#resent_otp_btn {
+  padding: 0.8rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
