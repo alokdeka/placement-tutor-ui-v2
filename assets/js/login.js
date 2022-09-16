@@ -51,5 +51,5 @@ validate = () => {
 // Login form submit
 loginForm.addEventListener("submit", function (e) {
   e.preventDefault();
-  alert("Login successful");
+  location.href = "dashboard.html";
 });
