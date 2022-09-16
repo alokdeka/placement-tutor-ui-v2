@@ -203,76 +203,192 @@
                     <div class="enrolled-courses mt-5">
                         <p class="page-section-title">My Enrolled Courses</p>
 
-                        <div class="row">
-                            <div class="col-md-4 mb-3">
-                                <div class="enrolled-course-single">
-                                    <img src="assets/img/course-1.jpg" alt="Enrolled course">
-                                    <p class="course-title mt-4">The Complete Full-Stack JavaScript Course</p>
-                                    <p class="course-detail mt-2">Software Engineer and Developer</p>
-                                    <p class="course-detail mt-2">Total Courses: 5</p>
-                                    <p class="course-detail mt-2">Completed Courses: 5/5</p>
-                                    <p class="course-detail mt-4">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 100%"
-                                                aria-valuenow="" aria-valuemin="" aria-valuemax="100">100%
-                                            </div>
+                        <!-- =============================== Tabs ==================================== -->
+                        <ul class="nav nav-tabs border-0" id="enrolled-courses-tablist" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="all-courses-tab" data-bs-toggle="tab"
+                                    data-bs-target="#all-courses-tab-pane" type="button" role="tab"
+                                    aria-controls="all-courses-tab-pane" aria-selected="true">All Courses</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="active-courses-tab" data-bs-toggle="tab"
+                                    data-bs-target="#active-courses-tab-pane" type="button" role="tab"
+                                    aria-controls="active-courses-tab-pane" aria-selected="false">Active
+                                    Courses</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="completed-courses-tab" data-bs-toggle="tab"
+                                    data-bs-target="#completed-courses-tab-pane" type="button" role="tab"
+                                    aria-controls="completed-courses-tab-pane" aria-selected="false">Completed
+                                    Courses</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="enrolled-courses-tabcontent">
+                            <!-- =================== All courses tab content ======================= -->
+                            <div class="tab-pane fade show active" id="all-courses-tab-pane" role="tabpanel"
+                                aria-labelledby="home-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="enrolled-course-single">
+                                            <img src="assets/img/course-1.jpg" alt="Enrolled course">
+                                            <p class="course-title mt-4">The Complete Full-Stack JavaScript Course</p>
+                                            <p class="course-detail mt-2">Software Engineer and Developer</p>
+                                            <p class="course-detail mt-2">Total Courses: 5</p>
+                                            <p class="course-detail mt-2">Completed Courses: 5/5</p>
+                                            <p class="course-detail mt-4">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 100%"
+                                                        aria-valuenow="" aria-valuemin="" aria-valuemax="100">100%
+                                                    </div>
+                                                </div>
+                                            </p>
                                         </div>
-                                    </p>
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="enrolled-course-single">
+                                            <img src="assets/img/course-2.jpg" alt="Enrolled course">
+                                            <p class="course-title mt-4">Complete Microsoft SQL Server 2021 for Everyone
+                                            </p>
+                                            <p class="course-detail mt-2">Software Engineer and Developer</p>
+                                            <p class="course-detail mt-2">Total Courses: 5</p>
+                                            <p class="course-detail mt-2">Completed Courses: 4/5</p>
+                                            <p class="course-detail mt-4">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 80%"
+                                                        aria-valuenow="" aria-valuemin="" aria-valuemax="100">80%
+                                                    </div>
+                                                </div>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="enrolled-course-single">
+                                            <img src="assets/img/course-3.jpg" alt="Enrolled course">
+                                            <p class="course-title mt-4">WordPress for Beginners - Master WordPress</p>
+                                            <p class="course-detail mt-2">Software Engineer and Developer</p>
+                                            <p class="course-detail mt-2">Total Courses: 5</p>
+                                            <p class="course-detail mt-2">Completed Courses: 2/5</p>
+                                            <p class="course-detail mt-4">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 40%"
+                                                        aria-valuenow="" aria-valuemin="" aria-valuemax="100">40%
+                                                    </div>
+                                                </div>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="enrolled-course-single">
+                                            <img src="assets/img/course-4.jpg" alt="Enrolled course">
+                                            <p class="course-title mt-4">React Crash Course for Begineers - React Router
+                                                6</p>
+                                            <p class="course-detail mt-2">Software Engineer and Developer</p>
+                                            <p class="course-detail mt-2">Total Courses: 5</p>
+                                            <p class="course-detail mt-2">Completed Courses: 1/5</p>
+                                            <p class="course-detail mt-4">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 20%"
+                                                        aria-valuenow="" aria-valuemin="" aria-valuemax="100">20%
+                                                    </div>
+                                                </div>
+                                            </p>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
+                            <!-- =================== All courses tab content ends ======================= -->
 
-                            <div class="col-md-4 mb-3">
-                                <div class="enrolled-course-single">
-                                    <img src="assets/img/course-2.jpg" alt="Enrolled course">
-                                    <p class="course-title mt-4">Complete Microsoft SQL Server 2021 for Everyone</p>
-                                    <p class="course-detail mt-2">Software Engineer and Developer</p>
-                                    <p class="course-detail mt-2">Total Courses: 5</p>
-                                    <p class="course-detail mt-2">Completed Courses: 4/5</p>
-                                    <p class="course-detail mt-4">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 80%"
-                                                aria-valuenow="" aria-valuemin="" aria-valuemax="100">80%
-                                            </div>
+                            <!-- =================== Active courses tab content ======================= -->
+                            <div class="tab-pane fade" id="active-courses-tab-pane" role="tabpanel"
+                                aria-labelledby="profile-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="enrolled-course-single">
+                                            <img src="assets/img/course-2.jpg" alt="Enrolled course">
+                                            <p class="course-title mt-4">Complete Microsoft SQL Server 2021 for Everyone
+                                            </p>
+                                            <p class="course-detail mt-2">Software Engineer and Developer</p>
+                                            <p class="course-detail mt-2">Total Courses: 5</p>
+                                            <p class="course-detail mt-2">Completed Courses: 4/5</p>
+                                            <p class="course-detail mt-4">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 80%"
+                                                        aria-valuenow="" aria-valuemin="" aria-valuemax="100">80%
+                                                    </div>
+                                                </div>
+                                            </p>
                                         </div>
-                                    </p>
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="enrolled-course-single">
+                                            <img src="assets/img/course-3.jpg" alt="Enrolled course">
+                                            <p class="course-title mt-4">WordPress for Beginners - Master WordPress</p>
+                                            <p class="course-detail mt-2">Software Engineer and Developer</p>
+                                            <p class="course-detail mt-2">Total Courses: 5</p>
+                                            <p class="course-detail mt-2">Completed Courses: 2/5</p>
+                                            <p class="course-detail mt-4">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 40%"
+                                                        aria-valuenow="" aria-valuemin="" aria-valuemax="100">40%
+                                                    </div>
+                                                </div>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="enrolled-course-single">
+                                            <img src="assets/img/course-4.jpg" alt="Enrolled course">
+                                            <p class="course-title mt-4">React Crash Course for Begineers - React Router
+                                                6</p>
+                                            <p class="course-detail mt-2">Software Engineer and Developer</p>
+                                            <p class="course-detail mt-2">Total Courses: 5</p>
+                                            <p class="course-detail mt-2">Completed Courses: 1/5</p>
+                                            <p class="course-detail mt-4">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 20%"
+                                                        aria-valuenow="" aria-valuemin="" aria-valuemax="100">20%
+                                                    </div>
+                                                </div>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <!-- =================== Active courses tab content ends ======================= -->
 
-                            <div class="col-md-4 mb-3">
-                                <div class="enrolled-course-single">
-                                    <img src="assets/img/course-3.jpg" alt="Enrolled course">
-                                    <p class="course-title mt-4">WordPress for Beginners - Master WordPress</p>
-                                    <p class="course-detail mt-2">Software Engineer and Developer</p>
-                                    <p class="course-detail mt-2">Total Courses: 5</p>
-                                    <p class="course-detail mt-2">Completed Courses: 2/5</p>
-                                    <p class="course-detail mt-4">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 40%"
-                                                aria-valuenow="" aria-valuemin="" aria-valuemax="100">40%
-                                            </div>
+                            <!-- =================== Completed courses tab content ======================= -->
+                            <div class="tab-pane fade" id="completed-courses-tab-pane" role="tabpanel"
+                                aria-labelledby="contact-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="enrolled-course-single">
+                                            <img src="assets/img/course-1.jpg" alt="Enrolled course">
+                                            <p class="course-title mt-4">The Complete Full-Stack JavaScript Course</p>
+                                            <p class="course-detail mt-2">Software Engineer and Developer</p>
+                                            <p class="course-detail mt-2">Total Courses: 5</p>
+                                            <p class="course-detail mt-2">Completed Courses: 5/5</p>
+                                            <p class="course-detail mt-4">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 100%"
+                                                        aria-valuenow="" aria-valuemin="" aria-valuemax="100">100%
+                                                    </div>
+                                                </div>
+                                            </p>
                                         </div>
-                                    </p>
+                                    </div>
+
                                 </div>
                             </div>
-
-                            <div class="col-md-4 mb-3">
-                                <div class="enrolled-course-single">
-                                    <img src="assets/img/course-4.jpg" alt="Enrolled course">
-                                    <p class="course-title mt-4">React Crash Course</p>
-                                    <p class="course-detail mt-2">Software Engineer and Developer</p>
-                                    <p class="course-detail mt-2">Total Courses: 5</p>
-                                    <p class="course-detail mt-2">Completed Courses: 1/5</p>
-                                    <p class="course-detail mt-4">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 20%"
-                                                aria-valuenow="" aria-valuemin="" aria-valuemax="100">20%
-                                            </div>
-                                        </div>
-                                    </p>
-                                </div>
-                            </div>
-
+                            <!-- =================== Completed courses tab content ends ======================= -->
                         </div>
+                        <!-- =============================== Tabs end ==================================== -->
+
                     </div>
                     <!-- ================================ My enrolled courses ends ================================ -->
 
