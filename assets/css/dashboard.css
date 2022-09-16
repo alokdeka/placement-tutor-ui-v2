@@ -1,0 +1,219 @@
+/* ============================= Common header ============================= */
+.page-header {
+  height: 40vh;
+  background-color: var(--color-light);
+  display: flex;
+  align-items: center;
+  padding-left: 10rem;
+  margin-bottom: 7rem;
+}
+
+/* ============================= Common sidebar ============================= */
+
+.page-header .welcome-text {
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+
+.sidebar .profile-photo {
+  border: 1px solid var(--border-color);
+  border-radius: 5px 5px 0 0;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar .profile-photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sidebar .profile-photo .user-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.sidebar .profile-photo .user-phone {
+  font-size: 1rem;
+  color: rgb(119, 119, 119);
+}
+
+.page-links ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.page-links ul li {
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+  font-size: 1.3rem;
+  transition: 0.1s ease-in-out;
+}
+
+.page-links ul li .sidebar-menu-icon {
+  margin-right: 1rem;
+  color: var(--primary-color);
+}
+
+.page-links ul li a {
+  text-decoration: none;
+  color: var(--sidebar-link-color);
+}
+
+.page-links ul li:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+.page-links ul li:hover,
+.page-links ul li.active {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.page-links ul li:hover .sidebar-menu-icon,
+.page-links ul li.active .sidebar-menu-icon {
+  color: #fff;
+}
+
+.page-links ul li:hover a,
+.page-links ul li.active a {
+  color: #fff;
+}
+/* ============================= Common main ============================= */
+.main {
+  margin-bottom: 5rem;
+}
+
+.page-section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* ============================= Dashboard ============================= */
+.box-inner {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3rem;
+}
+
+.box:nth-child(1) .box-inner {
+  background: rgb(60, 172, 6);
+  background: linear-gradient(
+    90deg,
+    rgba(60, 172, 6, 1) 0%,
+    rgba(8, 152, 16, 1) 100%
+  );
+}
+
+.box:nth-child(2) .box-inner {
+  background: rgb(50, 50, 50);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 50, 50, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.box:nth-child(3) .box-inner {
+  background: rgb(63, 126, 223);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 126, 223, 1) 0%,
+    rgba(8, 65, 154, 1) 100%
+  );
+}
+
+.box-total {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.box-text {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.box-icon {
+  font-size: 4rem;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  color: #fff;
+}
+
+.enrolled-course-single img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.enrolled-course-single .course-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.enrolled-course-single .course-detail {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.enrolled-course-single .progress {
+  height: 1.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.enrolled-course-single .progress-bar {
+  background-color: var(--primary-color);
+}
+
+.enrolled-course-single .course-detail:last-child {
+  display: flex;
+}
+
+.jobs {
+  margin-top: 5rem;
+}
+
+.jobs .table .job-title,
+.jobs .table .table-head {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.jobs .table .job-location,
+.jobs .table .job-post-time {
+  color: var(--sidebar-link-color);
+}
+
+.jobs .table .view-icon {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.jobs .table .view-icon i {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.jobs .table td {
+  padding: 1rem 0;
+}

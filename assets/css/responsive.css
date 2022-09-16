@@ -48,6 +48,12 @@
   .institute_single {
     margin-bottom: 4rem;
   }
+
+  .page-header {
+    padding-left: 2rem;
+    height: 30vh;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
